@@ -1,6 +1,8 @@
 package com.example.designpatterns;
 
 import com.example.designpatterns.facade.FacadeModel;
+import com.example.designpatterns.factory.FactoryModel;
+import com.example.designpatterns.factory.ShapeFactory;
 
 import org.junit.Test;
 
@@ -14,8 +16,8 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
-        FacadeModel facadeModel = new FacadeModel();
-        facadeModel.method();
+        FactoryModel factoryModel = new FactoryModel();
+        factoryModel.method();
 
 //        assertEquals(4, 2 + 2);
     }
