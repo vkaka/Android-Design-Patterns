@@ -4,10 +4,9 @@ package com.example.designpatterns.single;
  * 单例模式（双重验证锁机制）
  */
 public class SingleModel {
-    private static SingleModel singleModel;
+    private static volatile SingleModel singleModel;
 
     private SingleModel() {
-
     }
 
     public static SingleModel getInstance() {

@@ -4,7 +4,6 @@ public class SingleModel1 {
     /**
      * 单例模式（静态内部类）
      */
-
     private SingleModel1() {
     }
 
